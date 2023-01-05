@@ -1,16 +1,7 @@
 # material_flutter_app
 
-A new Flutter project.
+스캐폴드 클래스를 이용하여 머터리얼 디자인이 적용된 앱 만들어보기. 스캐폴드 클래스는 각종 위젯을 머터리얼 디자인 레이아웃으로 설계하는 것을 돕는다. 
+해당 프로젝트의 위젯 구성은 스캐폴드 밑에 메인 화면을 구성하는 본문을 나타내는 body, app의 가장 위 bar에 표시될 텍스트를 구성하는 AppBar, 오른쪽 아래 버튼 아이콘이 표시될 FloatingActionButton 으로 구성된다.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.

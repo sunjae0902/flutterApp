@@ -1,16 +1,4 @@
 # todo_list
+할 일을 기록하는 앱 만들기.<br>
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+이제까지 배운 내용을 토대로 할 일을 기록할 수 있는 앱을 만들어본다. 세 가지 페이지로 구성되어 있으며, 처음 메인 화면은 첫번째 페이지로 기존에 등록되어 있던 할 일 리스트를 보여준다. 네비게이션 클래스를 사용하여 페이지를 이동할 수 있으며 첫번째 페이지에 존재하는 '+' 버튼을 누르면 할 일을 새로 등록할 수 있는 입력창 페이지인 두번째 페이지로 이동한다. 등록을 완료하면 할 일이 추가된 새 리스트 목록을 세번째 페이지에서 보여준다. 해당 페이지에서도 '+' 버튼을 누르면 앞선 동작을 동일하게 수행한다. 

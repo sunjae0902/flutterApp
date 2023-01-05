@@ -5,7 +5,7 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  static const String _title='Widget Example';
+  static const String _title='Widget Example'; //앱 바 타이틀 
 
   @override
   Widget build(BuildContext context){
@@ -24,9 +24,9 @@ class WidgetApp extends StatefulWidget{
 
 class _WidgetExampleState extends State<WidgetApp>{
   String sum='';
-  TextEditingController value1=TextEditingController();
+  TextEditingController value1=TextEditingController(); //계산할 수 입력
   TextEditingController value2=TextEditingController();
-  List _buttonList=['덧셈','뺄셈','곱셈','나눗셈'];
+  List _buttonList=['덧셈','뺄셈','곱셈','나눗셈']; //가능한 기능을 버튼 리스트로 제시
   List<DropdownMenuItem<String>> _dropDownMenuItems= new List.empty(growable:true);
   String? _buttonText;
 
@@ -54,7 +54,7 @@ class _WidgetExampleState extends State<WidgetApp>{
                   });
                 },value: _buttonText),
               ),
-              Padding(padding: EdgeInsets.all(15),
+              Padding(padding: EdgeInsets.all(15),  //결과출력 및 계산 화면 구성
               child: Text('결과: $sum',
               style: TextStyle(fontSize: 20),),
       ),
@@ -77,7 +77,7 @@ class _WidgetExampleState extends State<WidgetApp>{
                       var value1Int=double.parse(value1.value.text);
                       var value2Int=double.parse(value2.value.text);
                       var result;
-                      if (_buttonText=='덧셈'){
+                      if (_buttonText=='덧셈'){ //사용자가 선택한 기능에 따라 계산하여 결과 출력
                         result=value1Int+value2Int;
                       }
                       else if (_buttonText=='뺄셈'){

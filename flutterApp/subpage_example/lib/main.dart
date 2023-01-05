@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart'; //라우팅 기능 사용하기
 
 void main(){
   runApp(MyApp());
@@ -25,21 +25,22 @@ class FirstPage extends StatefulWidget{
   State<StatefulWidget> createState()=> _FirstPage();
 }
 
-class _FirstPage extends State<FirstPage>{
+
+class _FirstPage extends State<FirstPage>{ //첫번째 페이지 클래스
   @override
   Widget build(BuildContext context){
     return Scaffold(
       appBar: AppBar(
-        title: Text('Sub Page Main'),
+        title: Text('Sub Page Main'), //앱바->main화면
       ),
       body: Container(
         child: Center(
-          child: Text('첫번째 페이지'),
+          child: Text('첫번째 페이지'), //중간에 표시할 내용
         ),
         ),
-        floatingActionButton: FloatingActionButton(
+        floatingActionButton: FloatingActionButton( //두번째 페이지로 이동할 수 있는 버튼
           onPressed: (){
-            Navigator.of(context) //Navigator 클래스: 스택을 이용해 페이지를 관리. of(context)함수: 현재 페이지 나타냄
+            Navigator.of(context) //Navigator 클래스: 스택(FILO)을 이용해 페이지를 관리. of(context)함수: 현재 페이지 나타냄
              .pushNamed('/second'); //두번째 페이지를 push함
           },
           child: Icon(Icons.add),
@@ -59,7 +60,7 @@ class SecondPage extends StatelessWidget{
         child: Center(
           child: ElevatedButton(
             onPressed: (){
-              Navigator.of(context).pop(); //지금 페이지 종료
+              Navigator.of(context).pop(); //지금 페이지 종료 (pop)
               },
             child: Text('돌아가기'),
           ),

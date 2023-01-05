@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tabbar_example/sub/firstpage.dart';
-import 'package:tabbar_example/sub/secondpage.dart';
+import 'package:tabbar_example/sub/secondpage.dart'; //페이지 임포트
 
 void main() {
   runApp(const MyApp());
@@ -9,7 +9,7 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
-  // This widget is the root of your application.
+  
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -51,18 +51,19 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> with
     SingleTickerProviderStateMixin {
-  TabController? controller;
+  TabController? controller;       //탭 컨트롤러 선언 
   @override
-    Widget build(BuildContext context){
-    return Scaffold(
-      appBar: AppBar(
-      title: Text('Tabbar Example'),
+  
+    Widget build(BuildContext context){ 
+    return Scaffold( //화면 구성, 스캐폴드 클래스
+      appBar: AppBar( 
+      title: Text('Tabbar Example'), //탭바 타이틀 텍스트
     ),
     body: TabBarView(
-      children:<Widget> [FirstApp(),SecondApp()],
+      children:<Widget> [FirstApp(),SecondApp()], //화면의 바디. 탭 컨트롤러에 따라 첫번째페이지/두번째 페이지 표시
       controller: controller,
     ),
-    bottomNavigationBar: TabBar(tabs: <Tab>[
+    bottomNavigationBar: TabBar(tabs: <Tab>[ //탭바 아이콘 생성
       Tab(icon: Icon(Icons.looks_one,color: Colors.blue),),
       Tab(icon: Icon(Icons.looks_two, color:Colors.blue),)
     ],controller: controller,
@@ -72,14 +73,14 @@ class _MyHomePageState extends State<MyHomePage> with
 
 
     @override
-    void initState() {
+    void initState() { 
     super.initState();
-    controller = TabController(length: 2, vsync: this);
+    controller = TabController(length: 2, vsync: this); //콜백 함수 처리 위치, length: 몇개의 탭을 만들 건지 결정
     }
 
 
     @override
-    void dispose(){
+    void dispose(){ //위젯의 상태 관리를 종료하는 함수 dispose() 재정의, 스테이트풀이 마지막에 호출하는 함수로, 사용하지 않을 시 메모리 누수 가능
     controller!.dispose();
     super.dispose();
     }

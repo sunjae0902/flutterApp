@@ -1,16 +1,4 @@
 # subpage_example
+네비게이션 이해하기.<br>
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+앱에서 네비게이션이란 여러 페이지가 존재할 때, 필요할 때마다 알맞는 페이지로 이동하게 하는 기능을 뜻한다. 본 프로젝트에서는 1)메인 화면인 첫번째 페이지에서 플로팅 버튼을 누르면 두 번째 페이지로 이동하고, 두 번째 페이지에서 돌아가기 버튼을 누르면 다시 첫번째 페이지로 이동할 수 있는 기능과, 2)네트워크 프로그래밍에서 요청 url을 통해 정해진 경로로 이동하는 기능인 '라우팅'기능으로 페이지 이동을 구현하는 것을 실습해본다.

@@ -1,6 +1,6 @@
 # dart_practice
 
-A new Flutter project.
+다트로 간단한 프로그램 만들기. 
 
 ## Getting Started
 

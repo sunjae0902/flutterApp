@@ -1,16 +1,7 @@
 # widget_example
 
-A new Flutter project.
+간단한 사칙연산이 가능한 계산기 기능 앱으로, 사용자와 상호작용 할 수 있는 앱<br>
+계산할 숫자를 써 넣고, 버튼을 눌러 더하기/빼기/곱하기/나누기 기능을 선택하면 결과가 출력되는 프로그램.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.

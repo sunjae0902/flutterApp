@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'fileApp.dart';
+import 'fileApp.dart'; //클래스가 정의된 파일 임포트 
 void main() {
   runApp(MyApp());
 }
@@ -7,7 +7,7 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
-  // This widget is the root of your application.
+  
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: FileApp(),
+      home: FileApp(), //파일 호
     );
   }
 }

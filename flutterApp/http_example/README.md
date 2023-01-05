@@ -1,16 +1,3 @@
 # http_example
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+네트워크 통신 이용해보기- http를 이용해 서버에 접속하고 원하는 데이터를 가져와서 사용할 수 있는 앱. <br>
+본 프로젝트에서는 http 패키지를 등록하고 사용하여 JSON 형식의 도서 정보 데이터를 가지고 와서 버튼을 누르면 책 이미지와 정보 리스트를 볼 수 있고, 텍스트 필드를 사용하여 사용자가 문자열을 검색하면 해당 문자열이 포함된 책 목록을 스크롤로 보여주는 기능을 구현한다.

@@ -1,16 +1,3 @@
 # tabbar_example
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+앱의 각 기능을 탭으로 연결하여 한 화면에서 여러 기능을 사용할 수 있게 하는 탭바를 만들어 본다. 여러 화면을 만들고 각 화면을 탭바에 연결하여 사용자가 탭을 눌렀을 경우 각 화면으로 이동하는 앱.<br>
+여러 화면을 만들기 위해서는 lib 라이브러리 아래 sub 폴더를 새로 생성하여 그 아래에 페이지 파일을 추가한다. main 파일에 페이지의 경로 정보를 적어 임포트 한 후, 스캐폴드 클래스로 화면을 구성하여 첫번째 화면에서 탭바를 누를 경우 두번째 페이지로 이동할 수 있게 구현한다. (이동할 때는 기본 애니메이션 사용) 

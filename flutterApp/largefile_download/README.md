@@ -1,16 +1,3 @@
 # largefile_download
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+서버에서 이미지 파일을 내려받는 앱. 파일을 내려받는 데 사용하는 dio, 패키지의 내부 저장소를 이용하는 path_provider 패키지를 등록 후 사용한다. <br>
+앱을 실행 후 버튼을 누르면 등록한 이미지를 내려받아 진행 상황을 퍼센티지로 보여주고, 100퍼센트가 되면 내려받은 이미지가 화면에 표시된다.

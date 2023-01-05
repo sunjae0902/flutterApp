@@ -1,6 +1,6 @@
 # flutter_project
 
-A new Flutter project.
+A First Flutter project. 클래스와 위젯을 사용하여 화면 구성해보기
 
 ## Getting Started
 

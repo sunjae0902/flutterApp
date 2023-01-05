@@ -1,16 +1,3 @@
 # fileio_example
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+파일 입출력 연습하기.<br>
+파일 입출력을 도와주는 path_provider 패키지를 사용하여 파일에 데이터를 저장하거나 불러올 수 있다. 파일을 사용하면 이미지, 긴 동영상, 음성 등 공유 환경 설정보다 더 복잡하고 다양한 데이터를 다룰 수 있다. 이 프로젝트에서는 내부 저장소에 좋아하는 과일 리스트를 txt 파일 형식으로 저장해놓고, 프로젝트에서 이 파일을 불러와서 보여주거나, 사용자가 과일 리스트에 새로운 과일을 추가로 입력하고 버튼을 누르면 리스트에 해당 과일이 추가되게 하는 프로그램을 구현해본다. 

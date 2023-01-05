@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:path_provider/path_provider.dart';
+import 'package:path_provider/path_provider.dart'; //파일입출력 패키지
 import 'dart:io';
-import 'package:shared_preferences/shared_preferences.dart';
+import 'package:shared_preferences/shared_preferences.dart'; //과일 리스트 텍스트 파일을 공유 환경설정 파일에 저장
 
 
 class FileApp extends StatefulWidget{

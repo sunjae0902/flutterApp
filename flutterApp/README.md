@@ -11,5 +11,5 @@
 3. .gitignore: 깃에 푸시할 때 필요없는 파일
 4. .metadada: flutter sdk 정보
 5. packages: flutter sdk에 사용하는 기본 패키지 경로
-6. fitst_flutter_app_iml: 파이이 자동으로 생성될 때 만들어지는 폴더 위치
+6. fitst_flutter_app_iml: 파일이 자동으로 생성될 때 만들어지는 폴더 위치
 7. pubspec.lock: pubspec.yaml에 적용된 패키지 위치 
